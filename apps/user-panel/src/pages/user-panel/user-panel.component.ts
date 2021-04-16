@@ -23,9 +23,8 @@ export class UserPanelComponent implements OnInit {
       sessionStorage.setItem('htmlDataTest', JSON.stringify(this.htmlData));
     });
 
-
-    setTimeout(() => {
-      this.ENUMData = 'test2 - setTimeout';
-    }, 3000);
+    // setTimeout(() => {
+    //   this.ENUMData = 'test2 - setTimeout';
+    // }, 3000);
   }
 }
